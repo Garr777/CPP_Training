@@ -46,12 +46,18 @@ namespace fts
 
 	void task5()
 	{
-
+		std::cout << "Please, enter a Celisius value : ";
+		int temp;
+		std::cin >> temp;
+		std::cout << temp << " degrees in Celisius is " << temp * 1.8 + 32 << " degrees in Fahrenheit.";
 	}
 
 	void task6()
 	{
-
+		std::cout << "Enter the number of light years : ";
+		double lightYears;
+		std::cin >> lightYears;
+		std::cout << lightYears << " lightyears = " << lightYears * 63240 << " astronomics units.";
 	}
 
 	void task7()
