@@ -1,6 +1,6 @@
 #pragma once
 #include<iostream>
-#include<limits>
+
 
 void Print1()
 {
@@ -10,6 +10,11 @@ void Print2()
 {
 	std::cout << "See how they run" << std::endl;
 }
+void PrintTime(int hours, int mins)
+{
+	std::cout << "Time : " << hours << ":" << mins << std::endl;
+}
+
 
 namespace fts
 {
@@ -62,7 +67,12 @@ namespace fts
 
 	void task7()
 	{
-
+		std::cout << "Enter a number of hours : ";
+		int hours, mins;
+		std::cin >> hours;
+		std::cout << "Enter a number of minutes : ";
+		std::cin >> mins;
+		PrintTime(hours, mins);
 	}
 
 }
