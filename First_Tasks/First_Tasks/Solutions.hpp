@@ -2,6 +2,14 @@
 #include<iostream>
 #include<limits>
 
+void Print1()
+{
+	std::cout << "Three blind mice" << std::endl;
+}
+void Print2()
+{
+	std::cout << "See how they run" << std::endl;
+}
 
 namespace fts
 {
@@ -22,7 +30,10 @@ namespace fts
 
 	void task3()
 	{
-
+		Print1();
+		Print1();
+		Print2();
+		Print2();
 	}
 
 	void task4()
