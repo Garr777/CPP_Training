@@ -38,7 +38,10 @@ namespace fts
 
 	void task4()
 	{
-
+		std::cout << "Enter your age : ";
+		int age;
+		std::cin >> age;
+		std::cout << "Your age in months is " << age * 12 << std::endl;
 	}
 
 	void task5()
